@@ -1,0 +1,24 @@
+package com.springcore.InjectCollection;
+
+import java.util.List;
+import java.util.Set;
+
+public class User {
+	private List<String>mbno;
+	private Set<String>address;
+	
+	public List<String> getMbno() {
+		return mbno;
+	}
+	public void setMbno(List<String> mbno) {
+		this.mbno = mbno;
+	}
+	public Set<String> getAddress() {
+		return address;
+	}
+	public void setAddress(Set<String> address) {
+		this.address = address;
+	}
+	
+	
+}

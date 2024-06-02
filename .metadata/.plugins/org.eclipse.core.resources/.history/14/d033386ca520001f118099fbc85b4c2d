@@ -1,0 +1,27 @@
+package com.springcore.p_schema;
+
+public class User {
+	private String userName;
+	private String userCity;
+	private String userId;
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getUserCity() {
+		return userCity;
+	}
+	public void setUserCity(String userCity) {
+		this.userCity = userCity;
+	}
+	public String getUserId() {
+		return userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+
+	
+}

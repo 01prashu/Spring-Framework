@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans">
+
+	<bean class="com.springcore.FirstMaven.Student" id="Student1">
+		<property name="StudentName">
+			<value>Prasahnt</value>
+		</property>
+				<property name="StudentAddress">
+			<value>Pune</value>
+		</property>
+				<property name="StudentId">
+			<value>34</value>
+		</property>
+	</bean>
+</beans>

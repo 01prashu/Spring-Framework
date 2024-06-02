@@ -1,0 +1,5 @@
+package com.springcore.p_schema;
+
+public class User {
+
+}

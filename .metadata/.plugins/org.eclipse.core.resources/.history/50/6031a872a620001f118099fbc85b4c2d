@@ -1,0 +1,19 @@
+package com.springcore.p_schema;
+
+/**
+ * Hello world!
+ *
+ */
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+        User user = (User) context.getBean("User1");
+        
+        System.out.println(user);
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.springcore.SecondName.Employee" id="Employee1">
+        <property name="EmployeeName">
+            <value>Prashu</value>
+        </property>
+        <property name="EmployeeAddress">
+            <value>Sambhajinagar</value>
+        </property>
+        <property name="EmployeeId">
+            <value>18</value>
+        </property>
+        <property name="EmployeePosition">
+            <value>Software Developer</value>
+        </property>
+    </bean>
+</beans>

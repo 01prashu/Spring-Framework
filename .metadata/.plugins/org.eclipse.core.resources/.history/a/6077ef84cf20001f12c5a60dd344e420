@@ -1,0 +1,5 @@
+package com.springcore.InjectReferenceType;
+
+public class B {
+
+}

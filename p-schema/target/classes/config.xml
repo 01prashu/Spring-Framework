@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd"
+       xmlns:p="http://www.springframework.org/schema/p">
+       
+       <bean class="com.springcore.p_schema.User" id="User1" p:UserName="Hrishikesh" p:UserCity="Pune" p:UserId="38"></bean>
+       
+       <bean class="com.springcore.p_schema.User" id="User2" p:UserName="Rahul" p:UserCity="Mumbai" p:UserId="79"/>
+       
+       <bean class="com.springcore.p_schema.User" id="User3">
+       	<property name="UserName" value="Pranav">
+       	</property>
+       	<property name="UserCity" value="Xz"/>
+     
+       </bean>
+       
+       <bean class="com.springcore.p_schema.User" id="User4">
+       	<property name="UserName">
+       		<value>Bharat</value>
+       	</property>
+       	<property name="UserCity">
+       		<value>Khed</value>
+       	</property>
+       </bean>
+</beans>

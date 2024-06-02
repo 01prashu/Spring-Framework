@@ -1,0 +1,30 @@
+package com.springcore.SecondName;
+
+public class Employee {
+	private String EmployeeName;
+	private String EmployeeAddress;
+	private int EmployeeId;
+	private String EmployeePosition;
+	
+	void setEmployeeName(String i_name)
+	{
+		this.EmployeeName = i_name;
+	}
+	void setEmployeeAddress(String address)
+	{
+		this.EmployeeAddress = address;
+	}
+	void setEmployeeId(int id)
+	{
+		this.EmployeeId = id;
+	}
+	void setEmployeePosition(String position)
+	{
+		this.EmployeePosition = position;
+	}
+	@Override
+	public String toString() {
+		return "Employee [EmployeeName=" + EmployeeName + ", EmployeeAddress=" + EmployeeAddress + ", EmployeeId="
+				+ EmployeeId + ", EmployeePosition=" + EmployeePosition + "]";
+	}
+}

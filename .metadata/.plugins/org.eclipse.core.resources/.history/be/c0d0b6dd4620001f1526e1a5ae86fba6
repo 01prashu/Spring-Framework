@@ -1,0 +1,13 @@
+package com.MyFolder;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import javax.servlet.http.HttpServlet;
+public class RegisterServlet extends HttpServlet{
+	
+	public void doPost()
+}
+
